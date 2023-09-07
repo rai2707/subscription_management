@@ -1,0 +1,48 @@
+.main_pop{
+    
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.773);
+}
+
+.popup {
+    position: absolute;
+    z-index: 100;
+    top: 35%;
+    left: 35%;
+    
+}
+.pop_section{
+    
+    width: 500px;
+    color: white;   
+    background-color: white;
+    height: 180px;
+    border: 0.2px solid white;
+    
+}
+.h2_field{
+    background-color: rgb(46, 46, 217);
+    padding: 5px;
+    margin-top: 0;
+}
+.p_tag{
+    color: black;
+    background-color: rgb(255, 251, 251);
+    padding: 15px 5px;
+    margin-top: -20px;
+    font-weight: 12px;
+    
+}
+.btn_ok{
+    background-color: rgb(46, 46, 217);
+    padding: 8px 33px;
+    color: white;
+    border: none;   
+    margin-left: 413px;
+    margin-top: 40px;
+    border-radius: 5px;
+}

@@ -1,0 +1,126 @@
+body{
+    overflow-x: hidden;
+}
+.form{
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+    background-color: skyblue;
+    margin: 30px auto;
+    height: 300px;
+    padding: 8px;
+    border-radius: 8px;
+    z-index: 0;
+    position: relative;
+    
+    
+}
+.title_dt_section{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    /* justify-content: start; */
+    align-items: start;
+    /* border: 1px solid red; */
+    /* width: 90%; */
+    /* margin-right: 10px; */
+}
+
+.inp-label-tit-sec{
+/* border: 1px solid black; */
+width: 50%;
+}
+.inp-label-dt-sec{
+/* border: 1px solid black; */
+width: 50%;
+}
+
+.error{
+    border: 2px solid red;
+    background-color: whitesmoke;
+}
+
+
+.inp_title{
+    width: 80%;
+    padding: 11px;
+    font-size: 16px;
+    
+}
+.inp_date{
+    width: 80%;
+    padding: 10px;  
+    /* margin-left: 160px;  */
+    font-size: 16px;
+}
+
+.amt_section{
+    /* border: 1px solid black; */
+    width: 50%;
+}
+.inp_amount{
+    width: 80%;
+    padding: 11px;   
+    font-size: 16px;
+    
+    
+}
+
+/* Button section */
+
+.btn_section{
+    /* border: 1px solid black; */
+    width: 30%;
+    /* margin-left: 600px; */
+    display: flex;
+    position: relative;
+    left: 70%;
+    margin-bottom: 50px;
+    justify-content: space-evenly;
+}
+.cancel{
+    padding: 14px 10px;
+    width: 40%;
+    border: none;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+}
+.save{
+    padding: 14px 10px;
+    width: 40%;
+    border: none;
+    background-color: navy;
+    border-radius: 5px;
+    color: white;
+}
+.add_new{
+    /* width: 13%; */
+    padding: 14px 10px;
+    border: none;
+    background-color: navy;
+    border-radius: 5px;
+    color: white;
+    /* margin-left: 370px; */
+}
+label{
+    font-weight: bolder;
+}
+
+.hide_btn{
+    width: 8%;
+    padding: 12px 10px;
+    border: none;
+    background-color: navy;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 35px auto;
+    /* margin-left: 770px; */
+}

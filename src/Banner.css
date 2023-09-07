@@ -1,0 +1,33 @@
+.compo_main{
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.date_section{
+    background-color: black;
+    border-radius: 10px;
+    padding: 5px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h5_sec{
+    background-color: darkblue;
+    border-radius: 10px;
+    padding: 10px 16px ;
+}
+.amt_title_sec{
+    display: flex;
+    align-items: center;
+}
+.chng_tit{
+    background-color: white;
+    color: gray;
+    padding: 0 6px;
+}
